@@ -1,17 +1,17 @@
-# nouveau_form_auth
+# Nouveau_form_auth
 Dans cette nouvelle version on a:
 
 integrer une base de donnees de MySQL
 ajouter la création d'un compte
 ajouter un bouton reset de remise a zero des champs 
 
-# information technique
+# Information technique
 Le fichier "base_donnee" creer la base de donnee qui contient une table "eleve" ;
 cette table contient 4 enregistrement 
-## test de validité du formulaire
+## Test de validité du formulaire
 un premier element a pour username Conte et password alpha , un deuxieme element a pour username Emile et password beta ,
 
-## test de Robustesse
+## Test de Robustesse
 Les deux autres element pourront etre utilisé pour tester la robustesse de notre formulaire 
 
 # Detail sur l'utilisation du formulaire
