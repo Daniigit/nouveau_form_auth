@@ -1,5 +1,9 @@
 body {
-  background: #1c242d;
+  background: #f5d9d9;
+}
+form.box{
+  width: 19.4cm;
+  height: 10cm;
 }
 .box {
   border: 1px solid #c4c4c4;
@@ -11,8 +15,15 @@ body {
 h1.box-logo a {
   text-decoration:none;
 }
+h1
+{
+  color: #000000;
+}
+p{
+  color: #000;
+}
 h1.box-title {
-  color: #AEAEAE;
+  color: #0f0505;
   background: #f8f8f8;
   font-weight: 300;
   padding: 15px 25px;
@@ -23,7 +34,7 @@ h1.box-title {
 }
 .box-button {
   border-radius: 5px;
-  background: #d2483c;
+  background: #1df109;
   text-align: center;
   cursor: pointer;
   font-size: 19px;
@@ -33,6 +44,20 @@ h1.box-title {
   color: #fff;
   border: 0;
   outline:0;
+}
+.box-button1
+{
+  background-color: cyan;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+
 }
 .box-register
 {
@@ -65,12 +90,13 @@ h1.box-title {
 }
 .sucess a {
   text-decoration: none;
-  color: #58f76d;
+  color: #f51b0b;
 }
 p.errorMessage {
     background-color: #ffffff;
     border: #AA4502 1px solid;
     padding: 5px 10px;
-    color: #FFFFFF;
+    color: #ff0606;
     border-radius: 3px;
+    text-align: center;
 }
